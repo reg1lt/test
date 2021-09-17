@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Italianno&display=swap');
+body {
+    background-color: bisque;
+    color: darkmagenta;
+    font: normal 20px 'Cardo', italic;
+}
+
+h2 {
+    font-weight: inherit;
+    color: #b407ff;
+}
+
+.beautImg {
+
+    width: 120px;
+    
+    border-radius: 50%;
+box-shadow: aquamarine 10px 10px 14px;
+    margin-top: 30px;
+}
+
+.info p{
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: black 10px 25px 2px;
+
+}
+
+.info h1 {
+
+    color: orangered;
+
+}
