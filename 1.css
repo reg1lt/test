@@ -4,6 +4,27 @@ body {
     color: darkmagenta;
     font: normal 20px 'Cardo', italic;
 }
+a {
+    color: #270238;
+    text-decoration: none;
+}
+a:hover{
+
+    text-decoration: underline;
+
+}
+a:active {
+
+    color: yellow;
+
+}
+
+a:visited {
+
+    color: #ff0e16;
+
+}
+
 
 h2 {
     font-weight: inherit;
@@ -24,13 +45,75 @@ box-shadow: aquamarine 10px 10px 14px;
     font-size: 30px;
     font-style: italic;
     font-weight: bolder;
-    text-transform: capitalize;
-    text-shadow: black 10px 25px 2px;
-
+    text-transform: none;
+    text-shadow: black 1px 3px 10px;
+    letter-spacing: 15px;
 }
 
 .info h1 {
 
     color: orangered;
 
+}
+
+.smth {
+
+    background-color: lightsalmon;
+    /*padding: 20px 23px 25px 27px;*/
+    padding: 12px 13px 14px 24px;
+    border:3px #b407ff groove;
+    border-bottom: 5px crimson outset ;
+    border-top-width: 15px;
+    border-left-color: black;
+    margin: 10px 80% 10px 10px;
+}
+
+
+.container {
+
+    max-width: 75%;
+    margin: auto;
+    min-width: 25%;
+
+}
+.box-model > div{
+
+    background-color: crimson;
+    float:left ;
+    height: 300px;
+    border: solid 4px black;
+    width: 25%;
+    box-sizing: border-box;
+
+}
+
+.bg-purple {
+
+    background: purple;
+
+}
+
+hr {
+    width: 270px;
+    margin: 10px;
+
+}
+.bg-yellow {
+
+    background: yellow;
+}
+.bg-green{
+
+    background: green;
+}
+.bg-red {
+
+    background: red;
+}
+.card {
+
+    padding:10px 20px;
+
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
